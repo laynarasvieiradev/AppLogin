@@ -2,10 +2,13 @@
  <section class="form-section">
    <img src="/assets/svg/logoMoveIt.svg" alt=""/>
    <h2>{{ title }}</h2>
+   <ng-content />
    <div class="button-wrapper">    
     <button class="button-primary">{{ primaryBtnText }}</button>
-    <div>
-     <span>or</span>
+    <div class="divider">
+      <div></div>
+      <span>or</span>
+      <div></div>
     </div>
     <button class="button-secondary">{{ secondaryBtnText }}</button>
    </div>
